@@ -1,0 +1,40 @@
+OOPS:
+     Object Oriented Programming 
+     
+     It is  a design model or paradigm which helps the programmer to corelate real world scenerios into 
+     the programming world scenerios in the form of object.
+
+     Encapsulation 
+     Inheritance
+     Polymorphism 
+     Abstraction
+
+     States means variable 
+     behaviour means method
+
+
+Encapsulation:
+    the binding or wrapping states and  behaviour of an object is known as Encapsulation.
+
+why do we use Encapsulation?
+    : To achive data hiding
+
+What is data hiding?
+    : The process oof avoiding direct access but providing controlled access is known as data hiding.
+
+How to avoid direct access?
+    : By using Private access modifier / Specifier.
+    private keyword
+    if we make any member  as private  so we cannot use that variable directly in different class. We can only useq directly in same class.
+
+How to provide controlled access?
+    : using getter and setter method .
+
+What is the use of getter method?
+    : used to get or retrive private method.
+what is the sue of setter method?
+    : used to set or modify private method.
+  
+
+  
+

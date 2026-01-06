@@ -36,5 +36,29 @@ what is the sue of setter method?
     : used to set or modify private method.
   
 
-  
 
+
+Types of relationships in JAVA:
+1: HAS-A relationship
+2: IS -A relationship
+
+
+HAS -A relationship:
+    1. Aggregation 
+        is a weak HAS-A relationship where the child object is careted outside the parent class and can exist independantly.
+    2. Composition
+        is a strong  HAS-A relationship where the parent class creates and owns the child object , and the child cannot exist independantly.
+
+
+
+Is- A relationship:
+    Inheritance: child class inherits properties form parent class and we ca achive with the help of extends keyword and implements keywords.
+
+Can we inherit static members?
+    yes using super() callling statement .
+
+
+Super() : It is constructor callling statement it is used to call call constructor of the super class.
+          It must be the first statement inside any constructor.
+          If programmer has not written this calling statement then by default compiler will add no arguments super calling statement.
+          We cannot use  this()  and super() in same constructor  

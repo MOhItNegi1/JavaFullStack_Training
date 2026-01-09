@@ -51,8 +51,8 @@ HAS -A relationship:
 
 
 
-Is- A relationship:
-    Inheritance: child class inherits properties form parent class and we ca achive with the help of extends keyword and implements keywords.
+Is- A relationship:    Inheritance:
+     child class inherits properties form parent class and we ca achive with the help of extends keyword and implements keywords.
 
 Can we inherit static members?
     yes using super() callling statement .
@@ -61,4 +61,39 @@ Can we inherit static members?
 Super() : It is constructor callling statement it is used to call call constructor of the super class.
           It must be the first statement inside any constructor.
           If programmer has not written this calling statement then by default compiler will add no arguments super calling statement.
-          We cannot use  this()  and super() in same constructor  
+          We cannot use  this()  and super() in same constructor 
+          We can use only one supercalling statement in one constructor. 
+
+
+
+
+
+Types of Inheritance:
+    1.Single Level: One subclass is having only one superclass is known as Single Level inheritance
+
+
+
+    2.Multi-Level : One subclass is having more than one suoerclass at different Level is knoown as Multi Level inheritance
+    
+    3.Hirerarchical: One Super clas is having more than one supercalss at same level is known as hirerarchical inheritance.
+    
+    4.Multiple : one subclas is having more than one superclas at the sme level is known as multiple inheritance.    
+                in java we cannot achive multiple inheritance because of diamond problem.
+                to acive multiple inheritance in java we have to use interface.
+    5. hybrid : combination of any two 
+
+
+
+Upcasting;
+    -the conversion of subclass type into superclass type is know as upcasting 
+
+    -in upcasting we create object of subclass and store it inside superclass reference variable.
+    -with the help of upcasting we can access only the members of superclass.
+Downcasting:
+    -the conversion of superclass type into subclasstype is known as downcasting .
+    -with the help of downcasting we can access  members of  subclass and superclass.
+
+Note : If we try to perform downcasting without upcasting it will throw class cast exception.
+
+
+

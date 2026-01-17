@@ -1,0 +1,31 @@
+
+
+Exception: the problem with occurs during run time due to which the flow of program gets disturbed and the execution stops.
+
+Q . What will happen when exception occur?
+1. the flow of the program is disturbed or stopped 
+2. Exception object will be created which contail type of exception error method description.
+3. Line no and the method details 
+4. jvm search for exception handler if it is present , it will handel the exception and program continues after try catch block 
+    if it is not present progarm gets terminated.
+
+Exception handling mechanism:
+    1. try catch 
+    2. try with multiople catch 
+    3. try finally
+    4. try catch finally 
+
+try :
+    it contains the code which might cauxe error.
+    it is used to prevent program from crashing if something goes wrong.
+
+catch : 
+    it catches the error  that happens in the try block and handles it.
+    Instead of crashing , your program shows something , a message or do something else.  
+
+Finally :
+    It always runs - weather or not there was an error.
+    used To do cleanup work link closing files , releasing memory , etc.
+
+
+

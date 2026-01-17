@@ -97,3 +97,72 @@ Note : If we try to perform downcasting without upcasting it will throw class ca
 
 
 
+
+
+polymorphism:
+    An ability of an object to exhibit more than one form is known as polymorphism
+    one name but different behaviours .
+
+
+    types of polymorphism:
+    1. compile time polymorphism 
+        The binding happens during copile time is known as copile tiem polymorphism.
+        it is also known as static binding.
+        We can achive compile time polymorphism using 
+            method overloading
+            constructor overloading
+            variable shadowing
+                A sublass and super class is static variable or non static variable with smae is known as variable shadowing.
+                which variable to be called is decided during compile time based on reference variable type.
+            method shadowing
+                A subclass and super class is having static method with ssame name , same acess modifier, same return type and 
+                same formal arguments.
+                which method to be called is decided during copile time based on  reference variable type.
+
+
+    2. runtime polymorphism
+        the binding  happens during runtime is known as runtime polymorphism.
+        it is also known as dynamic binding
+        we can achive runtime polymorphism using method overriding.
+
+        A subclass and super class is having non  static method with ssame name , same acess modifier, same return type and 
+                same formal arguments.
+
+    which method to be called is decided during run time based on object creation.
+
+Annotation: extra validation provided by programmer.
+@override 
+: which means method is override from superclass
+
+
+
+
+
+interface:
+    interface is a keyword.
+    It is used to create non primitive datatype.
+    it is used to achive 100 % Abstraction.
+    it is uded in multiple inheritance.
+
+    to inherit interface into class we use implements keywords.
+
+    with the help of implements keyword we can inherit  more than one innterface.
+
+    we cannot create objects of interface.
+
+    in interface we cannot create static initializer block , instance initializer block, constructor
+
+    in interface all the non static methods are already prefised with Abstract and public keyword.
+    hence we can achive 100% abstraction using interface.
+
+    in interface all the variables  are already prefixed with the final and static keyword.
+
+    if any variable is prefixed  with the final keyword which means we cannot re initialize that variable 
+    static method of interface can only be accesed through static way   
+
+
+    If we want to inherit one class into  another class , we use the extends keyword.
+    If we want to inherit (implement)  an interface into a class, we use the implements keyword.
+    If we want to inherit one intrface into another interface , we use the extends keyword.
+    If we try to inherit  a class into a interface , it is possible i java.
+    
